@@ -13,7 +13,7 @@ int main() {
       for (j = i + 1; j < arrlth && j != -1; j++){
           if ((numarr[i] + numarr[j]) == 16){
             printf ("%d %d\n", numarr[i], numarr[j]);
-            // -1 as a flag for numbers are paired
+            // -1 as a flag for numbers have been paired
             numarr[i] = -1;
             numarr[j] = -1;
             // Once a pair found exit current for loop
