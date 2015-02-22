@@ -22,3 +22,6 @@ int main() {
       }
   }
 }
+
+// This is a brute-force answer and costs O(n^2) time complexity.
+// I think it could be improved by using or implementing hash data structure.
